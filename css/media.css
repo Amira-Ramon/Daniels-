@@ -89,5 +89,10 @@
     .client .inner p {
         width: 100% !important;
     }
-
+    nav a.active::after {
+    width: 15% !important;
+}
+nav a:hover::after {
+    width:15% !important;
+}
 }
